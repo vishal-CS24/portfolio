@@ -1,0 +1,316 @@
+.txtclr ul li a{
+    color: azure;
+}
+.heading{
+    padding-left: 30px;
+}
+.menuitems{
+    padding-right: 30px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.pimg{
+    width: 250px;
+    padding-top: 70px;
+    margin-bottom: 20px;
+
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+}
+.description{
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: 30px;
+}
+body{
+    background-color: #f0ffe7;
+}
+h4{
+    font-family: 'Kalam', cursive;
+}
+.crsl {
+    margin-top: 50px;
+    width: 40%;
+    border: 5px solid black;
+    border-style: double;
+    border-radius: 5px;
+    margin-left: 200px;
+
+}
+
+  a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+  
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #eaf6f6;
+  }
+  hr {
+      border: dotted #66bfbf 6px;
+      border-bottom: none;
+      width: 10%;
+      margin: 50px auto;
+    }
+    #text-container {
+        text-align: center;
+        font-size: 24px;
+        /* font-family: Arial, sans-serif; */
+        color: black;
+        display: flex;
+        align-items: center;
+        font-family: 'Rye', cursive;
+        font-weight: bold;
+        justify-content: center;
+      }
+      #cursor {
+        margin-left: 5x;
+        opacity: 0;
+      }
+      
+      #static-text {
+        margin-right: 10px;
+        font-family: 'Rye', cursive;
+      }
+      
+      #text-to-type {
+        display: inline-block;
+        color:purple;
+        text-decoration: underline;
+        font-family: 'Lobster', cursive;
+      }
+      footer {
+        background-color: #dd3b4b;
+        color: #fff;
+        padding: 20px 0;
+      }
+    
+      footer p {
+        margin: 0;
+        text-align: center;
+        padding-top: 0px;
+      }
+    
+      footer ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+    
+      footer a {
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+      }
+
+      .main-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+        grid-gap: 2rem;
+        margin: 2rem 2rem 0;
+        justify-content: center;
+      }
+
+      .card {
+        height: 215px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+        
+      }
+      
+      .card-title {
+        color: white;
+        font-size: 24px;
+        margin: 20px 0 0 20px;
+        z-index: 1;
+        font-family: 'Sevillana', cursive;
+      }
+      
+      .para {
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+        align-self: end;
+        margin: 0 0 20px 20px;
+        letter-spacing: 0.5px;
+        z-index: 1;
+        font-family: 'Iceland', cursive;
+      }
+      
+      .card-img {
+        position: absolute;
+        top: 0;
+        height: 110%;
+        width: 100%;
+        z-index:0;
+        transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+        filter: brightness(0.5);
+      }
+      
+      .card:hover {
+        transform: scale(1.035, 1.035);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+
+      }
+      
+      .card:hover img {
+        transform: translateY(-10px);
+        filter: brightness(1);
+      }
+      .carddd{
+        align-items: center;
+        justify-content: center;
+      }
+      .button{
+        margin: 25px auto 10px;
+        padding: 5px 30px;
+      
+        color: purple;
+        border-color: purple;
+        --bs-btn-active-bg: purple;
+        --bs-btn-active-border-color:purple;
+      }
+      .button:hover{
+        background-color: #212529;
+        border-color: #212529;
+      
+      }
+      .view{
+      
+        display: flex;
+        justify-content: center;
+      
+      }
+       
+#image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+  grid-gap: 2rem;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+#image-container.show {
+  opacity: 1;
+  height: auto;
+  margin: 2rem 2rem 0;
+}
+#badge{
+height: 10rem;
+margin-bottom: 20px;
+}
+.badgess{
+display: flex;
+justify-content: space-between;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Montserrat", sans-serif;
+}
+.containerr {
+
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.containerr .card2 {
+  position: relative;
+  width: 300px;
+  height: 415px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.containerr:hover .card2 {
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+.containerr .card2:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.containerr .card2:nth-child(1) .circle,
+.containerr .card2:nth-child(1) .content a {
+  background-color: #7c0a02;
+}
+.containerr .card2:nth-child(2) .circle,
+.containerr .card2:nth-child(2) .content a {
+  background-color: #da2268;
+}
+.containerr .card2:nth-child(3) .circle,
+.containerr .card2:nth-child(3) .content a {
+  background-color: #bb02ff;
+}
+.containerr .card2 .circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  clip-path: circle(160px at center 0);
+  background-color: #000;
+}
+.containerr .card2 h2 {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 35px;
+  font-family: 'Gentium Book Plus', serif;
+}
+.containerr .card2 .content {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+}
+.containerr .card2 .content p {
+  font-size: 0.9rem;
+  color:black;
+  padding-bottom: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.containerr .card2 .content a {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  background-color: #000;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 18px 0 10px;
+  border-radius: 40px;
+  text-decoration: none;
+}
+@media(max-width:1000px){
+  .badgess{
+
+    display: inline-block;
+    text-align: center;
+  }
