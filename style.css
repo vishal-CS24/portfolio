@@ -162,7 +162,7 @@ h4{
       }
       
       .card:hover {
-        transform: scale(1.035, 1.035);
+        transform: scale(1.2);
         box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 
       }
@@ -189,6 +189,9 @@ h4{
         border-color: #212529;
       
       }
+      .card:hover .para,.card:hover .card-title{
+visibility: hidden;
+      }
       .view{
       
         display: flex;
@@ -209,6 +212,7 @@ h4{
 #image-container.show {
   opacity: 1;
   height: auto;
+  overflow: visible;
   margin: 2rem 2rem 0;
 }
 #badge{
