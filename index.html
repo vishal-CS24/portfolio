@@ -11,11 +11,11 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+<link rel="icon" type="image/x-icon" href="./pics/fc.ico">
     <title>Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg heading navbar-dark bg-danger bg-gradient fw-bold  txtclr" >
+    <nav class="navbar navbar-expand-lg heading navbar-dark bg-danger bg-gradient fw-bold  txtclr back" >
         <a class="navbar-brand  " href="index.html"> Welcome to my Portfolio</a>
         <button
           class="navbar-toggler "
@@ -37,10 +37,10 @@
               <a class="nav-link" href="#Achieve">Certifications</a>
             </li>
             <li class="navb-item">
-              <a class="nav-link" href="vishalresume.jpg" download>Resume</a>
+              <a class="nav-link" href="./resume.html">Resume</a>
             </li>
             <li class="navb-item">
-                <a class="nav-link" href="contact-form/contact.html">Contact Me</a>
+                <a class="nav-link" href="#contact-me">Contact Me</a>
               </li>
           </ul>
         </div>
@@ -56,8 +56,10 @@
         <p id="text-to-type"></p>
         <p id="cursor">|</p>
       </div>
+
       <div class="description">
-        <h4>I (Vishal Gupta) am a B.Tech student in Computer Science and Engineering at Lyallpur Khalsa College Technical Campus in Jalandhar. With a passion for technology and a strong foundation in computer programming and software development, i am eager to apply my skills to real-world projects and make a positive impact in the field. I am constantly learning and seeking new challenges to expand my knowledge and expertise.</h3>
+        <h4>I am a B.Tech student in Computer Science and Engineering at Lyallpur Khalsa College Technical Campus in Jalandhar. With a passion for technology and a strong foundation in computer programming and software development, i am eager to apply my skills to real-world projects and make a positive impact in the field. I am constantly learning and seeking new challenges to expand my knowledge and expertise.</h3>
+
       </div>
       <hr>
       <div class="img">
@@ -74,6 +76,47 @@
               <h3 class="card-title">NPTEL</h3>
               <p class="para">from IIT KHARAGPUR</p>
             </div>
+
+            <div class="card">
+              <img
+                class="card-img"
+                src="pics/sql_advance.png"
+                alt="none"
+              />
+              <h3 class="card-title">SQl ADVANCE</h3>
+              <p class="para">from HACKER RANK</p>
+            </div>
+
+            <div class="card">
+              <img
+                class="card-img"
+                src="pics/COURSERA_AI.png"
+                alt="none"
+              />
+              <h3 class="card-title">AI FOR EVERYONE</h3>
+              <p class="para">from COURSERA</p>
+            </div>
+
+            <div class="card">
+              <img
+                class="card-img"
+                src="pics/sql_project.jpg"
+                alt="none"
+              />
+              <h3 class="card-title">SQL PROJECT</h3>
+              <p class="para">from COURSERA</p>
+            </div>
+
+            <div class="card">
+              <img
+                class="card-img"
+                src="pics/AWS_CLOUD.png"
+                alt="none"
+              />
+              <h3 class="card-title">AWS CLOUD FOUNDATIONS</h3>
+              <p class="para">from AWS ACADEMY</p>
+            </div>
+
     
             <div class="card">
               <img
@@ -201,60 +244,157 @@
         <div class="img">
           <h1 id="Achieve">My Projects</h1>
           </div>
-        <div class="project">
-          <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
-            rel="stylesheet"
-          />
-          <div class="containerr">
-            <div class="card2">
-              <div class="circle">
-                <h2>MULTIFACTOR DETECTION SYSTEM</h2>
+       
+          <div class="projects">
+
+            <div class="project p1">
+              <h1>01</h1>
+              <video src="./videos/project1.mp4" autoplay muted loop controls></video>
+              <div class="overlay1">
+                <div class="title1">Driver Drowsiness Detection System</div>
+                <div class="desc1">
+                  <ul>
+                    <li>Built a Driver Drowsiness Detection System using <em> Machine Learning and IoT technologies</em> to monitor and alert drivers in real-time for signs of drowsiness or distraction during long journeys.</li>
+                    <br>
+                    <li class="ptech">Technologies used : Python ,OpenCV,Deep learning, camera, Tensorflow, Haar cascades,Arduino.</li>
+                  </ul>
+                </div>
               </div>
-              <div class="content">
-                <p>
-                 <b> This is a real time based project which detects multifactors of our body like FACE,EYES,SMILE AND FULL BODY.It uses web camera for real time detection.
-                  It is a Machine Learning based model and we use TKinter for front end.</b>
-                </p>
-                <a href="https://github.com/Vishalgupta12-coder/multidetection-model.git" target="_blank">view</a>
-              </div>
+      
+              <div class="btn1"><a href="https://github.com/vishal-CS24/Driver-drowsiness-detection-system"target="_blank" class="view1">View</a></div>
             </div>
-            <div class="card2">
-              <div class="circle">
-                <h2>E-COMMERCE WEBSITE</h2>
+      
+      
+            <div class="project p2">
+              <h1>02 </h1>
+              <video src="./videos/project2.mp4" autoplay muted loop controls></video>
+              <div class="overlay1">
+                <div class="title1">Personal Portfolio Website</div>
+                <div class="desc1">
+                  <ul>
+                    <li>Designed and developed a personalized portfolio website to showcase my professional projects, skills, and achievements. The website serves as a central hub for potential employers and clients to explore my work and learn more about my expertise.
+                      </li><br>
+                      <li class="ptech">Technologies used : HTML , CSS, JavaScript , Bootstrap , Github.</li>
+                  </ul>
+                </div>
               </div>
-              <div class="content">
-                <p>
-                  <b>
-                  This is a E-Commerce website which is specially designed to sell UNIFORMS online.It is created by using HTML,CSS,BOOTSTRAP,JAVASCRIPT.</b>
-                </p>
-                <a href="https://github.com/Vishalgupta12-coder/projects-with-blackbucks.git" target="_blank">view</a>
-              </div>
+              
+              <div class="btn1"><a href="https://github.com/vishal-CS24/portfolio" target="_blank" class="view1">View</a></div>
             </div>
-            <div class="card2">
-              <div class="circle">
-                <h2>CALCULATOR</h2>
+            <div class="project p3">
+              <h1>03</h1>
+              <video src="./videos/project3.mp4" autoplay muted loop controls></video>
+              <div class="overlay1">
+                <div class="title1">Multifactor Detection System</div>
+                <div class="desc1">
+                  <ul>
+                    <li>Developed a real-time multifactor detection system using computer vision techniques to detect face, smile, full body, and eyes through live camera feeds and Successfully integrated Tkinter to create a user-friendly graphical interface
+                      </li><br>
+                    <li class="ptech">Technologies Used: Python, OpenCV, Tkinter , Haar cascades, Webcam.</li>
+                   </ul>
+                </div>
               </div>
-              <div class="content">
-                <p>
-                 <b> It is a calculator which is designed by using TKINTER library of PYTHON to perform mathematical operations.</b>
-                </p>
-                <a href="https://github.com/Vishalgupta12-coder/basic_calculator.git" target="_blank">view</a>
-              </div>
+      
+              <div class="btn1"><a href="https://github.com/vishal-CS24/multifactor-detection-system" target="_blank" class="view1">View</a></div>
             </div>
-            <div class="card2">
-              <div class="circle">
-                <h2>PORTFOLIO WEBSITE</h2>
+            <div class="project p4">
+              <h1>04</h1>
+              <video src="./videos/project4.mp4" autoplay muted loop controls></video>
+              <div class="overlay1">
+                <div class="title1">Advanced Python Calculator</div>
+                <div class="desc1">
+                <ul>
+                  <li>Developed an advanced calculator using Python that supports basic arithmetic operations along with trigonometric functions (sine, cosine, tangent) and other mathematical operations.
+                    </li><br>
+                  <li class="ptech">Technologies used  : Python, Tkinter (for GUI), math module.</li>
+                </ul>
+                </div>
               </div>
-              <div class="content">
-                <p>
-                 <b> It is designed by using HTML,CSS,BOOTSTRAP,JAVASCRIPT to share personal profile with others.</b>
-                </p>
-                <a href="#" target="_blank">view</a>
-              </div>
+      
+              <div class="btn1"><a href="https://github.com/vishal-CS24/calculator_using_tkinter" target="_blank" class="view1">View</a></div>
             </div>
-          </div>
+            <div class="project p5">
+              <h1>05</h1>
+              <video src="./videos/project5.mp4" autoplay muted loop controls></video>
+              <div class="overlay1">
+                <div class="title1">Uniform Selling  website  (Frontend)</div>
+                <div class="desc1">
+                  <ul>
+                    <li>The Uniform selling website is a user-friendly e-commerce website developed as part of the Technology Entrepreneurship Development Program (TEDP) at Guru Nanak Dev University (GNDU) in Jalandhar. The project focuses on providing a seamless and engaging platform for selling uniforms online. </li>
+                    <br><li class="ptech">Technologies used : HTML , CSS, JavaScript,Bootstrap,Github.</li>
+                  </ul>
+                </div>
+              </div>
+      
+              <div class="btn1"><a href="https://github.com/vishal-CS24/projects-with-blackbucks"target="_blank" class="view1">View</a></div>
+            </div>
+        
+</div>
+<div class="contact-us" id="contact-me">
+  <div class="contact-top">
+    <h2>Contact Me</h2>
+  </div>
+
+  <div class="contact-info">
+    <div class="address">
+      <div class="socialmedia">
+        <a href="https://github.com/vishal-CS24" target="_blank" class="sm"><i class="fa-brands fa-github-square"></i></a>
+        <a href="https://www.linkedin.com/in/vishal-gupta-134356218/" target="_blank" class="sm"><i class="fa-brands fa-linkedin"></i></a>
+        <!-- <a href="http://" class="sm"><i class="fa-brands fa-square-instagram"></i></a> -->
+        <a href="https://twitter.com/vishalgupta2k" target="_blank" class="sm"><i class="fa-brands fa-square-twitter "></i></a>
+      </div>  
+      <div class="section">
+        <div class="icon">
+          <i class="fa-solid fa-location-dot"></i>
         </div>
+        <div class="data">
+          <h3>Address</h3>
+          <h4><a href="https://goo.gl/maps/6Gv2e2d73VGXPixT8" class="cct" target="_blank">Lyallpur Khalsa College Technical Campus, Jalandhar</a></h4>
+        </div>
+      </div>
+      <div class="section">
+        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+        <div class="data">
+          <h3>Phone</h3>
+          <h4><a href="tel:+91 6006769605" class="cct">+91 6006769605</a></h4>
+        </div>
+      </div>
+      <div class="section">
+        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+        <div class="data">
+          <h3>Email</h3>
+          <h4><a href="mailto:guptavishal2k@gmail.com" class="cct" target="_blank" >guptavishal2k@gmail.com</a></h4>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="form">
+      <h2>Send Message</h2>
+      <form action="mailto:guptavishal2k@gmail.com" method="post" enctype="text/plain">
+        <input
+          type="text"
+          name="Name"
+          id="fname"
+          placeholder="Full Name"
+          required
+        />
+        <input type="email" name="Email" id="email" placeholder="Email" required/>
+        <input
+          type="text"
+          name="Message"
+          id="message"
+          placeholder="Message"
+          required
+        />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
    <footer>
     <div class="container">
 
@@ -263,16 +403,18 @@
           <a href="index.html">About</a>
         </li>
         <li class="list-inline-item">
-          <a href="#">Contact</a>
+          <a href="#contact-me"">Contact</a>
         </li>
         <li class="list-inline-item">
-          <a href="#">certifications</a>
+          <a href="#Achieve">certifications</a>
         </li>
         <li class="list-inline-item">
-          <a href="#">Resume</a>
+          <a href="./resume.html">Resume</a>
         </li>
       </ul>
       <p>Copyright &copy; 2023 Vishal Gupta<p></p>
+
+    
     </div>
   </footer>
 
